@@ -154,6 +154,9 @@ export default function ZentialProductBlock() {
                 </svg>
 
                 <div className="relative">
+                  {/* Purple orb glow behind image */}
+                  <div className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 h-[360px] w-[360px] rounded-full opacity-40 blur-3xl" style={{ background: "radial-gradient(45% 45% at 50% 50%, #9279FF99 0%, #9279FF55 30%, #ffffff00 70%)" }} />
+
                   <div className="overflow-hidden rounded-[16px]">
                     <img src="https://cdn.builder.io/api/v1/image/assets%2F59783fb837cc428591fe3cc9e5426c31%2F3a5f999c4b0145718583bb004b1afceb" alt="ZENTIAL Face & Neck Sculpt" className="block aspect-[4/5] w-full rounded-[16px] object-cover" loading="lazy" width={960} height={1200} style={{ filter: "brightness(1.08) saturate(1.04)" }} />
                     <div className="pointer-events-none absolute inset-0 rounded-[16px] bg-[linear-gradient(180deg,rgba(255,255,255,0.22),rgba(255,255,255,0))] opacity-60 mix-blend-screen" />
