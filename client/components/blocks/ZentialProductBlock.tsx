@@ -123,15 +123,26 @@ export default function ZentialProductBlock() {
               </svg>
 
               {/* Device image */}
-              <img
-                src="/zential/face-neck-sculpt.jpg"
-                alt="ZENTIAL Face & Neck Sculpt"
-                className="block aspect-[4/5] w-full rounded-2xl object-cover"
-                loading="lazy"
-                width={960}
-                height={1200}
-                style={{ filter: "brightness(1.08) saturate(1.04)" }}
-              />
+              <div className="relative">
+                <div className="overflow-hidden rounded-[16px]">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F59783fb837cc428591fe3cc9e5426c31%2F3a5f999c4b0145718583bb004b1afceb"
+                    alt="ZENTIAL Face & Neck Sculpt"
+                    className="block aspect-[4/5] w-full rounded-[16px] object-cover"
+                    loading="lazy"
+                    width={960}
+                    height={1200}
+                    style={{ filter: "brightness(1.08) saturate(1.04)" }}
+                  />
+
+                  {/* Subtle glass/refraction overlays for a sleek finish */}
+                  <div className="pointer-events-none absolute inset-0 rounded-[16px] bg-[linear-gradient(180deg,rgba(255,255,255,0.22),rgba(255,255,255,0))] opacity-60 mix-blend-screen" />
+                  <div className="pointer-events-none absolute left-0 top-0 h-full w-full rounded-[16px] [background:linear-gradient(90deg,rgba(255,255,255,0.06),rgba(255,255,255,0)_20%)]" />
+
+                  {/* Soft highlight on the lower edge */}
+                  <div className="pointer-events-none absolute bottom-0 left-0 h-8 w-full rounded-b-[16px] bg-gradient-to-t from-black/6 to-transparent" />
+                </div>
+              </div>
 
               {/* FDA badge */}
               <div className="absolute left-3 top-3">
