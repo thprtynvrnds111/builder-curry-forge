@@ -84,7 +84,7 @@ export default function ZentialProductBlock() {
               src="https://cdn.builder.io/api/v1/image/assets%2F59783fb837cc428591fe3cc9e5426c31%2F3a5f999c4b0145718583bb004b1afceb"
               alt="Zential Face & Neck Sculpt device"
               className="relative z-10 mx-auto w-full max-w-[92%] select-none object-contain drop-shadow-[0_25px_50px_rgba(0,0,0,0.25)] transition-transform duration-500 will-change-transform"
-              style={{ transform: `translateY(${parallaxOffset}px)` }}
+              style={{ transform: `translateY(${parallaxOffset}px)`, filter: "brightness(1.08) saturate(1.04)" }}
             />
 
             <div className="pointer-events-none absolute inset-0 rounded-[28px] opacity-60 [background:radial-gradient(120%_60%_at_50%_0%,rgba(255,255,255,0.6)_0%,rgba(255,255,255,0)_60%)]" />
