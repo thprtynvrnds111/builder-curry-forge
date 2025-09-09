@@ -59,7 +59,7 @@ export default function ZentialProductBlock() {
             <div className="flex items-baseline gap-3">
               <span className="text-4xl font-extrabold text-neutral-900">{currency(299)}</span>
               <span className="text-lg text-neutral-500 line-through">{currency(399)}</span>
-              <Badge className="rounded-full bg-amber-600 px-3 py-1 text-xs font-semibold text-white">25% OFF</Badge>
+              <Badge className="rounded-full px-3 py-1 text-xs font-semibold text-white" style={{ backgroundColor: 'rgba(22,232,208,1)' }}>25% OFF</Badge>
             </div>
           </div>
 
@@ -81,7 +81,7 @@ export default function ZentialProductBlock() {
             <div className="pointer-events-none absolute inset-0 rounded-[28px] bg-[linear-gradient(135deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_45%,rgba(255,255,255,0.35)_100%)] opacity-70" />
 
             <img
-              src="/zential-device.svg"
+              src="https://cdn.builder.io/api/v1/image/assets%2F59783fb837cc428591fe3cc9e5426c31%2F3a5f999c4b0145718583bb004b1afceb"
               alt="Zential Face & Neck Sculpt device"
               className="relative z-10 mx-auto w-full max-w-[92%] select-none object-contain drop-shadow-[0_25px_50px_rgba(0,0,0,0.25)] transition-transform duration-500 will-change-transform"
               style={{ transform: `translateY(${parallaxOffset}px)` }}
@@ -90,7 +90,7 @@ export default function ZentialProductBlock() {
             <div className="pointer-events-none absolute inset-0 rounded-[28px] opacity-60 [background:radial-gradient(120%_60%_at_50%_0%,rgba(255,255,255,0.6)_0%,rgba(255,255,255,0)_60%)]" />
 
             <div className="absolute -top-3 left-6">
-              <Badge className="animate-float rounded-full bg-emerald-600 px-3 py-1 text-[11px] font-semibold text-white shadow-md shadow-emerald-300/30">
+              <Badge className="animate-float rounded-full px-3 py-1 text-[11px] font-semibold text-white shadow-md shadow-emerald-300/30" style={{ backgroundColor: 'rgba(90,250,214,1)' }}>
                 FDA CLEARED
               </Badge>
             </div>
