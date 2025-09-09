@@ -272,44 +272,6 @@ export default function ZentialProductBlock() {
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="mt-16">
-        <div className="relative overflow-hidden rounded-3xl">
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,#6FCF97, #9279FF)] opacity-10 blur-3xl" />
-          <div className="mx-auto relative z-10 max-w-[1200px] px-4 py-16">
-            <div className="grid gap-8 items-center lg:grid-cols-2">
-              <div>
-                <h2 className="text-3xl font-extrabold text-gray-900">Transform Your Skin in 5 Minutes a Day.</h2>
-                <p className="mt-3 text-gray-700 max-w-[56ch]">A clinical device designed for daily rituals — salon level results, home comfort.</p>
-
-                <div className="mt-6 flex items-center gap-4">
-                  <div className="text-3xl font-extrabold">US$299</div>
-                  <div className="text-sm text-gray-200 line-through">US$399</div>
-                  <Badge className="rounded-full px-3 py-1 text-xs font-semibold text-white" style={{ backgroundColor: "#16E8D0" }}>25% OFF</Badge>
-                </div>
-
-                <div className="mt-6 flex gap-3">
-                  <Button className="rounded-xl bg-white/95 px-6 py-4 font-bold text-gray-900 shadow-[0_12px_40px_rgba(0,0,0,0.12)]">Add to Cart</Button>
-                  <Button variant="ghost" className="rounded-xl border border-white/20 px-6 py-4 text-white/90">Learn More</Button>
-                </div>
-
-                <div className="mt-4 text-sm text-gray-100">Secure checkout · 2-year warranty · Free shipping</div>
-              </div>
-
-              <div className="relative">
-                <div className="mx-auto w-full max-w-md">
-                  <div className="relative">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F59783fb837cc428591fe3cc9e5426c31%2F3a5f999c4b0145718583bb004b1afceb" alt="Zential product" className="mx-auto w-full max-w-[420px] object-contain" />
-                    <div className="pointer-events-none absolute inset-0 -z-10 rounded-full opacity-40 blur-3xl" style={{ background: "radial-gradient(45% 45% at 50% 50%, #6FCF97 0%, #9279FF 70%)" }} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="h-24" />
     </main>
   );
 }
