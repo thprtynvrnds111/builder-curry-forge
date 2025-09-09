@@ -125,7 +125,7 @@ export default function ZentialProductBlock() {
               {/* Device image */}
               <img
                 src="/zential/face-neck-sculpt.jpg"
-                alt="ZENTIAL Face & Neck Sculpt on glass base"
+                alt="ZENTIAL Face & Neck Sculpt"
                 className="block aspect-[4/5] w-full rounded-2xl object-cover"
                 loading="lazy"
                 width={960}
